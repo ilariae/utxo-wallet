@@ -8,9 +8,9 @@ fn wallet_with_alice() -> Wallet {
 }
 
 // helper functions
-fn wallet_with_alice_and_bob() -> Wallet {
-    Wallet::new(vec![Address::Alice, Address::Bob].into_iter())
-}
+// fn wallet_with_alice_and_bob() -> Wallet {
+//     Wallet::new(vec![Address::Alice, Address::Bob].into_iter())
+// }
 
 /*fn wallet_with_multiple_users() -> Wallet {
     Wallet::new(vec![Address::Alice, Address::Bob, Address::Charlie].into_iter())
